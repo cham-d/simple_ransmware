@@ -9,20 +9,17 @@ The second one is to add some extra functionality to the file monitor program,so
 it can detects the encrypted files and detects if a big volume of files was created 
 in the last 20 minutes.
 
-  I. File list
+  I. FILE LIST
 ------------
 * acmonitor.c                    The file monitor tool with the new features.
 * logger.c                       The logger with the 'fake' fopen and fwrite.
 * MakeFile                       MakeFile,everyone knows it :).
 * ransomware.h                   File with the 'malicious' code.
-  EXTRA_FILES:
 * creteFilesScript.c             A script that creates many files using fopen,written in C.
-
   
-  II. INSTALLATION
+  II. INSTALATION
 ------------
 1. Just run make command.
-
 
   III. COMMAND LINE ARGUMENTS EXAMPLES
 ------------
@@ -49,8 +46,6 @@ Shows all encrypted files.
 Example: ./acmonitor -i 30
 Shows how many files created the last 20 minutes and prints a
 warning message if they are more than 30.
-
-
 
   IV. THE WAY THAT THE WHOLE PROJECT WORKS-COMMENTS
 ------------
