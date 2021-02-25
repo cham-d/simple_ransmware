@@ -26,24 +26,24 @@ in the last 20 minutes.
 ##### Ransmware examples:
 
 Example1:<br />
-Make 1000 files in directory "testingDirectory" :
+Make 1000 files in directory "testingDirectory" :<br />
 ```sh make ransom ARGS="-c testingDirectory -x 1000" ```
 
-Example2:
-Encrypt all files in testingDirectory Folder,using password 1234:
+Example2:<br />
+Encrypt all files in testingDirectory Folder,using password 1234:<br />
 ```sh make ransom ARGS="-e testingDirectory -p 1234" ```
 
-Example3:
-Decrypt all files in testingDirectory Folder,using password 1234:
+Example3:<br />
+Decrypt all files in testingDirectory Folder,using password 1234:<br />
 ```sh make ransom ARGS="-d testingDirectory -p 1234" ```
 
 ##### Monitor tool examples:
 
-Show all encrypted files:
+Show all encrypted files:<br />
  ```sh ./acmonitor -e ```
 
 Show how many files created the last 20 minutes and prints a
-warning message if they are more than 30.
+warning message if they are more than 30.<br />
 ```sh ./acmonitor -i 30 ```
 
 
