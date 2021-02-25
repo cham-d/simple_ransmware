@@ -2,20 +2,21 @@
 
 ### General Info
 ------------
-The main part of the Assignment_5 is to make a ransmware program that can do two
-things: Create big volume of files and encrypt files. (You can decrypt them too.)
+The main part of this Assignment is to make a ransmware program that can do two
+things: 
+Create big volume of files and encrypt files. (You can decrypt them too.)
 The second one is to add some extra functionality to the file monitor program,so
 it can detects the encrypted files and detects if a big volume of files was created 
 in the last 20 minutes.
 
   I. File list
 ------------
-acmonitor.c                    The file monitor tool with the new features.
-logger.c                       The logger with the 'fake' fopen and fwrite.
-MakeFile                       MakeFile,everyone knows it :).
-ransomware.h                   File with the 'malicious' code.
-EXTRA_FILES:
-creteFilesScript.c             A script that creates many files using fopen,written in C.
+⋅⋅* acmonitor.c                    The file monitor tool with the new features.
+⋅⋅* logger.c                       The logger with the 'fake' fopen and fwrite.
+⋅⋅* MakeFile                       MakeFile,everyone knows it :).
+⋅⋅* ransomware.h                   File with the 'malicious' code.
+⋅⋅* EXTRA_FILES:
+⋅⋅* creteFilesScript.c             A script that creates many files using fopen,written in C.
 
   
   II. INSTALLATION
