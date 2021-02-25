@@ -44,8 +44,7 @@ Show all encrypted files:<br />
 
 Show how many files created the last 20 minutes and prints a
 warning message if they are more than 30.<br />
-```sh ./acmonitor -i 30 ```
-
+```sh ./acmonitor -i 30 ```<br /><br />
 
   IV. THE WAY THAT THE WHOLE PROJECT WORKS-COMMENTS
 ------------
