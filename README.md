@@ -17,7 +17,8 @@ in the last 20 minutes.<br />
 - ransomware.h                   File with the 'malicious' code.
 - creteFilesScript.c             A script that creates many files using fopen,written in C.
   <br />
- II. INSTALATION
+  
+II. INSTALATION
 ------------
 1. Just run make command.<br /><br />
 
