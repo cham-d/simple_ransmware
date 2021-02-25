@@ -25,8 +25,7 @@ in the last 20 minutes.
 ------------
 ##### Ransmware examples:
 
-Example1:
-
+Example1:<br />
 Make 1000 files in directory "testingDirectory" :
 ```sh make ransom ARGS="-c testingDirectory -x 1000" ```
 
