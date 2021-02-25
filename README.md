@@ -15,7 +15,7 @@ in the last 20 minutes.
 * logger.c                       The logger with the 'fake' fopen and fwrite.
 * MakeFile                       MakeFile,everyone knows it :).
 * ransomware.h                   File with the 'malicious' code.
-* EXTRA_FILES:
+  EXTRA_FILES:
 * creteFilesScript.c             A script that creates many files using fopen,written in C.
 
   
@@ -27,7 +27,7 @@ in the last 20 minutes.
   III. COMMAND LINE ARGUMENTS EXAMPLES
 ------------
 
----Ransmware examples---
+#### Ransmware examples
 
 Example:
 Make 1000 files in directory "testingDirectory"
@@ -41,7 +41,7 @@ Example:
 Decrypt all files in testingDirectory Folder,using password 1234:
 make ransom ARGS="-d testingDirectory -p 1234"
 
----Monitor tool examples---
+#### Monitor tool examples
 
 Example: ./acmonitor -e
 Shows all encrypted files.
