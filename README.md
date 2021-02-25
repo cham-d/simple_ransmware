@@ -7,7 +7,7 @@ things:
 * Create big volume of files and encrypt files. (You can decrypt them too.)
 * The second one is to add some extra functionality to the file monitor program,so
 it can detects the encrypted files and detects if a big volume of files was created 
-in the last 20 minutes.
+in the last 20 minutes.<br />
 
  I. FILE LIST
 ------------
@@ -16,10 +16,10 @@ in the last 20 minutes.
 - MakeFile                       MakeFile,everyone knows it :).
 - ransomware.h                   File with the 'malicious' code.
 - creteFilesScript.c             A script that creates many files using fopen,written in C.
-  
+  <br />
  II. INSTALATION
 ------------
-1. Just run make command.
+1. Just run make command.<br /><br />
 
  III. COMMAND LINE ARGUMENTS EXAMPLES
 ------------
