@@ -11,12 +11,12 @@ in the last 20 minutes.
 
   I. File list
 ------------
-⋅⋅* acmonitor.c                    The file monitor tool with the new features.
-⋅⋅* logger.c                       The logger with the 'fake' fopen and fwrite.
-⋅⋅* MakeFile                       MakeFile,everyone knows it :).
-⋅⋅* ransomware.h                   File with the 'malicious' code.
-⋅⋅* EXTRA_FILES:
-⋅⋅* creteFilesScript.c             A script that creates many files using fopen,written in C.
+* acmonitor.c                    The file monitor tool with the new features.
+* logger.c                       The logger with the 'fake' fopen and fwrite.
+* MakeFile                       MakeFile,everyone knows it :).
+* ransomware.h                   File with the 'malicious' code.
+* EXTRA_FILES:
+* creteFilesScript.c             A script that creates many files using fopen,written in C.
 
   
   II. INSTALLATION
