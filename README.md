@@ -2,7 +2,7 @@
 
 ### General Info
 ------------
-	The main part of the Assignment_5 is to make a ransmware program that can do two
+The main part of the Assignment_5 is to make a ransmware program that can do two
 things: Create big volume of files and encrypt files. (You can decrypt them too.)
 The second one is to add some extra functionality to the file monitor program,so
 it can detects the encrypted files and detects if a big volume of files was created 
