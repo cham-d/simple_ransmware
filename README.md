@@ -1,56 +1,56 @@
-# simple_ransmware
+# A Simple Ransomware
 
 ### General Info
 ------------
 The main part of this Assignment is to make a ransmware program that can do two
 things: 
-Create big volume of files and encrypt files. (You can decrypt them too.)
-The second one is to add some extra functionality to the file monitor program,so
+* Create big volume of files and encrypt files. (You can decrypt them too.)
+* The second one is to add some extra functionality to the file monitor program,so
 it can detects the encrypted files and detects if a big volume of files was created 
 in the last 20 minutes.
 
-  I. FILE LIST
+ I. FILE LIST
 ------------
-* acmonitor.c                    The file monitor tool with the new features.
-* logger.c                       The logger with the 'fake' fopen and fwrite.
-* MakeFile                       MakeFile,everyone knows it :).
-* ransomware.h                   File with the 'malicious' code.
-* creteFilesScript.c             A script that creates many files using fopen,written in C.
+- acmonitor.c                    The file monitor tool with the new features.
+- logger.c                       The logger with the 'fake' fopen and fwrite.
+- MakeFile                       MakeFile,everyone knows it :).
+- ransomware.h                   File with the 'malicious' code.
+- creteFilesScript.c             A script that creates many files using fopen,written in C.
   
-  II. INSTALATION
+ II. INSTALATION
 ------------
 1. Just run make command.
 
-  III. COMMAND LINE ARGUMENTS EXAMPLES
+ III. COMMAND LINE ARGUMENTS EXAMPLES
 ------------
+##### Ransmware examples:
 
-#### Ransmware examples
+Example1:
+Make 1000 files in directory "testingDirectory" :
+```sh make ransom ARGS="-c testingDirectory -x 1000" ```
 
-Example:
-Make 1000 files in directory "testingDirectory"
-make ransom ARGS="-c testingDirectory -x 1000"
-
-Example:
+Example2:
 Encrypt all files in testingDirectory Folder,using password 1234:
-make ransom ARGS="-e testingDirectory -p 1234"
+```sh make ransom ARGS="-e testingDirectory -p 1234" ```
 
-Example:
+Example3:
 Decrypt all files in testingDirectory Folder,using password 1234:
-make ransom ARGS="-d testingDirectory -p 1234"
+```sh make ransom ARGS="-d testingDirectory -p 1234" ```
 
-#### Monitor tool examples
+##### Monitor tool examples:
 
-Example: ./acmonitor -e
-Shows all encrypted files.
+Show all encrypted files:
+ ```sh ./acmonitor -e ```
 
-Example: ./acmonitor -i 30
-Shows how many files created the last 20 minutes and prints a
+Show how many files created the last 20 minutes and prints a
 warning message if they are more than 30.
+```sh ./acmonitor -i 30 ```
+
 
   IV. THE WAY THAT THE WHOLE PROJECT WORKS-COMMENTS
 ------------
 
-  The Ransmware uses aes-256-ecb to encrypt/decrypt the files.
+The Ransmware uses aes-256-ecb to encrypt/decrypt the files.
  It also uses createFilesScript.c to create the big volume of files.
 
    The option -e of the monitoring program works like:
