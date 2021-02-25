@@ -54,14 +54,14 @@ The Ransmware uses aes-256-ecb to encrypt/decrypt the files.
  It also uses createFilesScript.c to create the big volume of files.
 
    The option -e of the monitoring program works like:
- 1.Scan the log file to find .encrypt extention in files with mode 0(creation).
+ 1.Scan the log file to find .encrypt extention in files with mode 0(creation).<br />
  2.When it finds one,it pauses the search and start scan the
  log file again until it reaches the pause point(The point that it 
  had been pause the search before) or if it find the same file without the 
- .encrypt extention and with mode 1(read the file).
- 3.If the last one is true then it prints tha the file has been encrypted.
+ .encrypt extention and with mode 1(read the file).<br />
+ 3.If the last one is true then it prints tha the file has been encrypted.<br />
  4.it continues the search for the pause point until it reaches the 
- end of the log file.
+ end of the log file.<br />
 
    The option -i finds and prints how many files have been created the last
  20 min by looking its file datetime modification-create field and comparing it
